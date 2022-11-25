@@ -25,7 +25,7 @@ impl Default for TargetBundle {
             name: Name::new("Target"),
             target: Target { speed: 0.3 },
             health: Health { value: 3 },
-            physics: PhysicsBundle::moving_entity(Vec3::new(0.168, 0.298, 0.168)),
+            physics: PhysicsBundle::moving_entity(Vec3::new(0.168, 0.299, 0.168)),
         }
     }
 }
@@ -80,7 +80,7 @@ impl Default for TargetSpawn {
         Self {
             speed: Default::default(),
             time: Timer::from_seconds(2.0, TimerMode::Repeating),
-            ts: Transform::from_xyz(-4.0, 0.0, 1.5),
+            ts: Transform::from_xyz(-4.0, 0.168, 1.5),
         }
     }
 }

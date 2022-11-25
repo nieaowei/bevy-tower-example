@@ -236,15 +236,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bevy-basic-3d"
-version = "0.1.0"
-dependencies = [
- "bevy",
- "bevy-inspector-egui",
- "bevy_rapier3d",
-]
-
-[[package]]
 name = "bevy-inspector-egui"
 version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -266,6 +257,15 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "bevy-tower-example"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "bevy-inspector-egui",
+ "bevy_rapier3d",
 ]
 
 [[package]]
